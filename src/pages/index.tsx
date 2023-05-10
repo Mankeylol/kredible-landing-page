@@ -17,10 +17,8 @@ export default function Home() {
       <Navbar />
       <div className="hero-section">
         <div className="hero-text">
-          <h1>Get your <span className='color-purp'>on-chain</span> Credit Score</h1>
-          <p>Example text example text example 
-            text example text example text 
-            example text example text.</p>
+          <h1>Future of <span className='color-purp'>Creditworthiness</span></h1>
+          <p>An on-chain credit score platform made for you and you in mind</p>
             <button className='hero-btn' onClick={() => setModalOpen(true)}>Join Waitlist</button>
         </div>
         <img className='hero-img' src="kredible-nft.png" alt="" />
