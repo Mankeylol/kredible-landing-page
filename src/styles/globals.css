@@ -1,3 +1,4 @@
+html, body {width: 100vw; height: 100vh;}
 body{
   background-color: #141419;
   color: #FFFFFF;
@@ -256,4 +257,24 @@ align-items: center;
   color: #FFFFFF;
   border: 0px;
   font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-section > *{
+    margin-right: 350px;
+  }
+  .nav-items{
+    display: flex;
+    margin-left: 400px;
+    justify-content: end;
+    margin-bottom: 45px;
+    width: 400px;
+  }
+  .navbar{
+    width: 100vh;
+  }
+
+  .content{
+    width: 1300px;
+  }
 }
