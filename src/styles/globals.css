@@ -260,13 +260,16 @@ align-items: center;
 }
 
 @media screen and (max-width: 800px) {
+  .modal-background{
+    width: 200vh;
+    height: 2000px;
+  }
   .hero-section > *{
     margin-right: 350px;
   }
   .nav-items{
     display: flex;
     margin-left: 400px;
-    justify-content: end;
     margin-bottom: 45px;
     width: 400px;
   }
@@ -276,5 +279,11 @@ align-items: center;
 
   .content{
     width: 1300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .modal-background{
+    width: 300vh;
   }
 }
