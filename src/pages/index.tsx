@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar'
 import Card from '../../components/Card'
 import Modal from '../../components/Modal'
 import { useState } from 'react'
+import Head from 'next/head'
 
 
 
@@ -14,6 +15,9 @@ export default function Home() {
 
   return (
     <>
+    <Head>
+        <meta name="viewport" content="viewport-fit=cover" />
+      </Head>
       <Navbar />
       <div className="hero-section">
         <div className="hero-text">
