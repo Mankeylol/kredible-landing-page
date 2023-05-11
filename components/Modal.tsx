@@ -45,6 +45,8 @@ export default function Modal({ setModalOpen }: any) {
     // Reset the form
     setWalletAddress('');
     setEmail('');
+   
+    setModalOpen(false)
   }
 
 
